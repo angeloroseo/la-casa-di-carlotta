@@ -227,7 +227,7 @@ export default function OwnerDashboard() {
                 placeholder="Password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                onKeyPress={(e) => e.key === "Enter" && password === "Paolo1" && setPassword(password)}
+                onKeyPress={(e) => e.key === "Enter" && password === "Carlotta2026owner" && setPassword(password)}
                 className="w-full px-4 py-3 border border-border rounded-lg bg-background focus:outline-none focus:ring-2 focus:ring-primary"
               />
               <button
@@ -240,7 +240,7 @@ export default function OwnerDashboard() {
 
             <button
               onClick={() => {
-                if (password === "Paolo1") {
+                if (password === "Carlotta2026owner") {
                   setPassword(password)
                 } else {
                   alert("Invalid password")
@@ -251,7 +251,7 @@ export default function OwnerDashboard() {
             >
               Access Dashboard
             </button>
-            <p className="text-center text-xs text-muted-foreground mt-4 font-light">Hint: Paolo1</p>
+            <p className="text-center text-xs text-muted-foreground mt-4 font-light">Hint: Carlotta2026owner</p>
           </div>
         </div>
       )}

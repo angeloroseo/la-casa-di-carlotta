@@ -124,7 +124,7 @@ export default function GuestPortal() {
   ]
 
   const handlePasswordSubmit = () => {
-    if (password === "Carlotta2025") {
+    if (password === "Carlotta2026") {
       setIsAuthenticated(true)
     } else {
       alert("Invalid password")
@@ -193,7 +193,7 @@ export default function GuestPortal() {
           >
             Access Portal
           </button>
-          <p className="text-center text-xs text-muted-foreground mt-4 font-light">Hint: Carlotta2025</p>
+          <p className="text-center text-xs text-muted-foreground mt-4 font-light">Hint: Carlotta2026</p>
         </div>
       </div>
     )
